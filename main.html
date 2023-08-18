@@ -1,16 +1,50 @@
 <!DOCTYPE html>
 
 <html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      div {
+        background-color: #f5f5f5;
+        padding: 20px;
+        font-style: normal;
+      }
+      #first {
+        padding: 10px;
+        background-color: antiquewhite;
+		  margin:0px 0px 10px 0px;
+      }
+      #second {
+        padding: 10px;
+        background-color: antiquewhite;
+		  margin:10px 0px; 
+      }
+      .author {
+        text-align: right;
+        font-style: italic;
+      }
+    </style>
+  </head>
 
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
-</body>
-
+  <body>
+    <!-- the entire body must be written by student -->
+    <script type="text/javascript" src="./script.js"></script>
+    <div class="MainContainer">
+      <h1>Testimonials</h1>
+      <div id="first">
+        <p>
+          This produxt is amazing! I highly recommend it so anyone is need of a
+          solution like this.
+        </p>
+        <p class="author">-John Doe</p>
+      </div>
+      <div id="second">
+        <p>
+          I have been using this for a few weeks now and it has completely
+          transformed my workflow.
+        </p>
+        <p class="author">-Jane Smith</p>
+      </div>
+    </div>
+  </body>
 </html>
